@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
     QHBoxLayout *lay=new QHBoxLayout;
     slide->setMaximum(10);
     slide->setMinimum(1);
-    slide->setValue(10);
+    slide->setValue(8);
     wid.setval(10);
     lay->addWidget(slide);
     wid.setLayout(lay);
